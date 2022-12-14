@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUIA-PARA-ACCESS</title>
+    <link rel="stylesheet" href="forma.css">
+</head>
+<body>
+    <div class="titulo"><p>guia de C# con Access</p></div>
+    <nav>   
+        <ul>
+            <li><a href="guia.html">inicio</a></li>   
+            <li><a href="conectar.html">conectar la base</a></li> 
+            <li><a href="leer.html">leer datos</a></li>  
+            <li><a href="eliminar.html">eliminar datos</a></li>  
+            <li><a href="modificar.html">modificar datos</a></li> 
+        
+        </ul>
+
+    </nav>
+    <div class="texto">
+        <p> 
+            el primer paso es verificar que el formulario donde estemos trabajando este conectado
+            a la base de datos, señalando el formulario principal (llamada 'GLOBALES' en este ejemplo)
+            , junto con la funcion que debimos ya haber programado par conectar (llamada 'conectar' en este ejemplo).
+        </p>
+        <img src="cap/conn.jpg" alt="">
+        <p>luego declaramos una variable de tipo string de bajo de la clase publica de nuestro formulario,
+             que sera donde almacenaremos la orden que queremos darle a la 
+            base de datos
+        </p>
+        <img src="cap/orden.jpg" alt="">
+
+        <p>luego le damos valor a la variable que sera la orden a la base de datos,
+            la cadena seria 'insert into "nombre de la tabla(campos de la tabla)"+value("datos para agregar");''
+
+        </p>
+        <img src="cap/horca.jpg" alt="">
+        <p>por ultimo ultimo ejecutamos los comandos dentro de la variable con la orden
+            para la base de datos, esto señalando el formulario donde se ubica la conexion a la base 
+            seguido del comando ya creado para comunicarse con la base.                             
+            </p>
+            
+        <img src="cap/exet.jpg" alt="">
+        <p>nota: recuerde hacerlo dentro del proceso done quiere que se realice la orden .
+        </p>
+
+    </div>
+</body>
+</html>

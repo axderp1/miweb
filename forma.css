@@ -1,0 +1,41 @@
+body{
+    background-image: url(cap/fondoguia.png);
+}
+.titulo{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin:0 auto ;
+    border: 0ch;
+    padding: 0;
+    display: flex;
+    width: 80%;
+}
+nav{
+    background-color: rgb(44, 56, 221);
+}
+nav li {
+    display: inline-block;
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration:none;
+}
+nav li a{
+    color: azure;
+    text-decoration:none;
+}
+.texto{
+    background-color: rgb(54, 56, 68);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.texto p{
+    color: aliceblue;
+    padding: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    text-align: center;
+}
+.texto a{
+    color: aqua;
+}
